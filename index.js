@@ -1,3 +1,4 @@
+import _ from 'https://cdn.jsdelivr.net/npm/lodash-es@4.17.21/lodash.js';;
 const API_URL = 'https://api.restcountries.com/countries/v5';
 
 let input = document.querySelector('.input');
