@@ -37,7 +37,7 @@ box.innerHTML = '';
 
 input.addEventListener('input', _.debounce(() => {
     renderList(input.value)
-}))
+}, 2000))
 
 input.addEventListener('change', () => {
     box.innerHTML = '';
